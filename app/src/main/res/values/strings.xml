@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Unican</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cedula">Nº de Cédula</string>
+    <string name="password">Password</string>
+    <string name="acceder">Acceder</string>
+    <string name="title_activity_notas">Notas</string>
+    <string name="logo">Logo</string>
+    <string name="endpoint">http://www.facitec.edu.py</string>
+    <string name="title_activity_parciales">Parciales</string>
+    <string name="title_activity_hablilitacion">Hablilitaciones</string>
+    <string name="title_activity_asistencia">Asistencia</string>
+
+</resources>

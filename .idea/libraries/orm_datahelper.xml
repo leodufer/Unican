@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="orm-datahelper">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/orm-datahelper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

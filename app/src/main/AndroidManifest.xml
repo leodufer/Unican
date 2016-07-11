@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="py.edu.unican.unicanapp"
+    android:versionCode="4"
+    android:versionName="1.4">
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".NotasActivity"
+            android:label="@string/title_activity_notas"></activity>
+        <activity
+            android:name=".ParcialesActivity"
+            android:label="@string/title_activity_parciales"></activity>
+        <activity
+            android:name=".HablilitacionActivity"
+            android:label="@string/title_activity_hablilitacion"></activity>
+        <activity
+            android:name=".AsistenciaActivity"
+            android:label="@string/title_activity_asistencia"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
